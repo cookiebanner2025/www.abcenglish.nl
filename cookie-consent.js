@@ -2518,7 +2518,7 @@ function injectConsentHTML(detectedCookies, language = "en") {
         <div class="cookie-settings-content">
             <div class="cookie-settings-header">
                 <h2>${lang.title}</h2>
-                <span class="close-modal">&times;</span>
+                <span class="cclose-modal">&times;</span>
             </div>
             <div class="cookie-settings-body">
                 ${generateCategorySection("functional")}
@@ -2860,7 +2860,7 @@ function setupEventListeners() {
       }
     });
 
-  document.querySelector(".close-modal").addEventListener("click", function () {
+  document.querySelector(".cclose-modal").addEventListener("click", function () {
     hideCookieSettings();
     if (!getCookie("cookie_consent")) {
       showCookieBanner();
