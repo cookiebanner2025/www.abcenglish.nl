@@ -70,7 +70,7 @@ const config = {
     rememberLanguage: true,
     acceptOnScroll: false,
     acceptOnContinue: false,
-    showFloatingButton: true,
+    showFloatingButton: false,
     showAdminButton: false,
     floatingButtonPosition: "left",
     adminButtonPosition: "left",
