@@ -258,7 +258,7 @@
 }
 
 
-.close-modal {
+.cclose-modal {
   font-size: 28px;
   font-weight: bold;
   cursor: pointer;
@@ -270,7 +270,7 @@
 }
 
 
-.close-modal:hover {
+.cclose-modal:hover {
   color: #e74c3c;
 }
 
