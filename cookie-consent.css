@@ -493,6 +493,7 @@ input:disabled + .toggle-slider {
   font-weight: 500;
   display: inline-block;
   transition: color 0.2s ease;
+  display: none;
 }
 
 
